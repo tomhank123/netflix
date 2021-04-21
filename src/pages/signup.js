@@ -6,6 +6,7 @@ import { FooterContainer } from '../containers/footer';
 import { HeaderContainer } from '../containers/header';
 import { FirebaseContext } from '../context/firebase';
 
+
 export default function SignUp() {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
